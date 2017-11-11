@@ -1,0 +1,14 @@
+<meta>
+    <info name="Inventory" author="rootcause" type="script" />
+
+    <!-- Files -->
+    <script src="Inventory.dll" type="server" lang="compiled" />
+    <script src="Inventory.js" type="client" lang="javascript" />
+    <script src="ItemDetector.js" type="client" lang="javascript" />
+
+    <!-- Settings -->
+    <settings>
+        <setting name="inventorySlots" value="10" default="10" description="Amount of inventory slots a player has." />
+        <setting name="dropLifetime" value="5" default="5" description="Minutes before a dropped item is removed." />
+    </settings>
+</meta>
